@@ -1,0 +1,39 @@
+<form id="loginForm">
+  <div class="form-item">
+    <label>Nome de usuário</label>
+    <div class="input-wrapper">
+      <input
+        type="text"
+        id="username"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+    </div>
+  </div>
+
+  <div class="form-item">
+    <label>Senha</label>
+
+    <div class="input-wrapper">
+      <input
+        type="password"
+        id="password"
+        autocomplete="off"
+      />
+
+      <button type="button" id="eyeball">
+        <div class="eye"></div>
+      </button>
+
+      <div id="beam"></div>
+    </div>
+  </div>
+
+  <p id="message"></p>
+
+  <button id="submit" type="submit">
+    Entrar
+  </button>
+</form>
